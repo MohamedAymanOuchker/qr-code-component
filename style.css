@@ -1,9 +1,9 @@
 body{
-    background-color: hsl(212, 45%, 89%);
+    background-color: hsl(212, 96%, 59%);
     font-family: 'Outfit', sans-serif;
     text-align: center;
 }
-.container{
+.container-fluid{
     margin: 200px auto;
     width: 400px;
     height: 580px;
@@ -11,12 +11,12 @@ body{
     position: relative;
     border-radius: 15px;
 }
-.container p {
+.container-fluid p {
     font-size: 15px;
     text-align: center;
     color: rgb(165, 165, 165);
 }
-.container h1 {
+.container-fluid h1 {
     font-size: 25px;
 }
 .child {
@@ -30,9 +30,11 @@ img{
     border-radius: 12px;
 }
 .attribution { 
-    font-size: 11px; 
-    text-align: center; 
+    font-size: 20px; 
+    text-align: center;
 }
+
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+    color: azure;
 }
